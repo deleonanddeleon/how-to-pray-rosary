@@ -147,6 +147,7 @@ section > article > ol > li > p {
   padding-left: 0px;
 }
 
+
 h2 {
   color: black;
   margin: 10px;
@@ -208,6 +209,7 @@ p.code {
   padding-left: 2px;
   padding-bottom: 1px;
   padding-top: 1px;
+  padding-right: 4px;
 }
 
 /* Responsive section  */
