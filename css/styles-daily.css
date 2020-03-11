@@ -166,7 +166,7 @@ p {
   line-height: 1.6;
 }
 
-p.code {
+article > p.code {
   display: block;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -177,6 +177,19 @@ p.code {
   padding-left: 30px;
   padding-right: 15px;
   padding-bottom: 30px;
+}
+
+p.code {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  /* white-space: normal; */
+  white-space: pre-line;
+  padding-left: 30px;
+  padding-right: 15px;
+  padding-bottom: 10px;
 }
 
 .bold-special {
@@ -244,27 +257,33 @@ p.code {
     margin-left: -10px;
   }
 
+  article > p.code {
+    margin-left: 0;
+    width: 100%;
+    padding: 15px;
+    /* padding-left: 10px; */
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    min-width: 233px;
+  }
+
   p.code {
     margin-left: 0;
     width: 100%;
     padding: 15px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-left: 30px;
     padding-right: 15px;
+    padding-bottom: 10px;
     min-width: 233px;
   }
-
-  /* code {
-    margin-left: -5px;
-    width: 100%;
-    padding: 15px;
-    padding-left: 10px;
-    padding-right: 15px;
-    min-width: 233px;
-  } */
-
+  
+  
   .grid-table {
     width: 100%;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-left: 30px;
     padding-right: 0px;
   }
 }
