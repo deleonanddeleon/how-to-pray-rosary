@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Color Palette:  https://colorhunt.co/palette/2763 */
+
+:root {
+  --color-black: #222831;
+  --color-grey:  #393e46;
+  --color-turquoise:  #00ADB5;
+  --color-dark:  #eeeeee;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-grey);
+  color: var(--color-dark);
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  /* width: 100%; */
+  position: relative;
+  padding: 0;
+}
+
+/* Navigation  */
+nav {
+  background: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 18px;
+  min-height: 50px;
+}
+
+.nav-child {
+  flex-grow: 1;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+	width: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  width: 100px;
+  text-align: center;
+  /* flex-grow: 2; */
+  flex-grow: 1;
+} 
+
+nav > ul > li > a {
+  color: var(--color-dark);
+	font-size: 0.9rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	color: gray;
+}
+
+nav div:nth-child(1) {
+	flex-grow: 8;
+	width: 125px;
+	padding-bottom:15px;
+}
+
+nav div:nth-child(1) img {
+	margin-left: 20px;
+} 
+
+/* Section Hero  */
+section h1 {
+  font-size:  1.8rem;
+  /* letter-spacing: 0.1rem;
+  word-spacing: 0.1rem; */
+  text-align: center;
+}
+
+section.hero {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* height:  100vh;
+  width: 100%; */
+}
+
+.container {
+  /* width: 100%; */
+  padding: 80px;
+  /* padding-left: auto;
+  padding-right: auto; */
+  padding-top: 30vh;
+}
+
+/* @media only screen and (max-width: 576px) { */
+@media only screen and (max-width: 542px) {
+  nav {
+		flex-direction: column;
+		padding-bottom: 15px;
+  }
+
+  nav > ul {
+		/* background:#232323; */
+		width:100%;
+		margin-top:15px;
+  }
+  
+  nav > ul > li {
+		width: 50%;
+		padding: 5px;
+	}
+
+  nav div:nth-child(1) {
+		margin: 0 auto;
+		display:block;
+		padding-bottom:0;
+  }
+
+  .nav-child {
+		flex-grow: 1;
+		text-align: center;
+	}
+}
