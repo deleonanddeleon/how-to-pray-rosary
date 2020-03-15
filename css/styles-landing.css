@@ -26,7 +26,8 @@ html, body {
 
 body {
   background: var(--color-grey);
-  color: var(--color-dark);
+  /* color: var(--color-dark); */
+  color:  var(--color-turquoise);
   font-family: 'Roboto', sans-serif;
   font-size: 100%;
   /* width: 100%; */
@@ -67,7 +68,8 @@ nav > ul > li {
 } 
 
 nav > ul > li > a {
-  color: var(--color-dark);
+  /* color: var(--color-dark); */
+  color: var(--color-turquoise);
 	font-size: 0.9rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -93,6 +95,7 @@ section h1 {
   /* letter-spacing: 0.1rem;
   word-spacing: 0.1rem; */
   text-align: center;
+  /* color:  var(--color-turquoise); */
 }
 
 section.hero {
