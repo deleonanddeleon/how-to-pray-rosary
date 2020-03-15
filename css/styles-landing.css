@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,900&display=swap');
 
 /* Color Palette:  https://colorhunt.co/palette/2763 */
 
@@ -28,7 +28,7 @@ body {
   background: var(--color-grey);
   /* color: var(--color-dark); */
   color:  var(--color-turquoise);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 100%;
   /* width: 100%; */
   position: relative;
@@ -96,6 +96,7 @@ section h1 {
   word-spacing: 0.1rem; */
   text-align: center;
   /* color:  var(--color-turquoise); */
+  line-height: 1.8;
 }
 
 section.hero {
@@ -106,25 +107,41 @@ section.hero {
   width: 100%; */
 }
 
+section h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
 .container {
   /* width: 100%; */
   padding: 80px;
   /* padding-left: auto;
   padding-right: auto; */
-  padding-top: 30vh;
+  padding-top: 20vh;
+}
+
+.container > a {
+  color:  var(--color-turquoise);
+  text-decoration: none;
+}
+
+.container > a:hover {
+  color: gray;
 }
 
 /* @media only screen and (max-width: 576px) { */
-@media only screen and (max-width: 542px) {
+@media only screen and (max-width: 576px) {
   nav {
 		flex-direction: column;
-		padding-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 
   nav > ul {
 		/* background:#232323; */
 		width:100%;
-		margin-top:15px;
+		margin-top: 0px;
   }
   
   nav > ul > li {
@@ -134,8 +151,12 @@ section.hero {
 
   nav div:nth-child(1) {
 		margin: 0 auto;
-		display:block;
-		padding-bottom:0;
+		display: block;
+		padding-bottom: 0;
+  }
+
+  nav div:nth-child(1) img {
+    margin-left: 0;
   }
 
   .nav-child {
