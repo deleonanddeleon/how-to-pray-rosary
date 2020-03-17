@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,900&display=swap');
+
+/* Color Palette:  https://colorhunt.co/palette/2763 */
+
+:root {
+  --color-black: #222831;
+  --color-grey:  #393e46;
+  --color-turquoise:  #00ADB5;
+  --color-light:  #eeeeee;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-grey);
+  color:  var(--color-turquoise);
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  position: relative;
+  padding: 0;
+}
+
+/* header  */
+header {
+  background: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  justify-content: center;
+  padding-top: 18px;
+  min-height: 50px;
+}
+
+/* .hdr-child {
+  flex-grow: 1;
+} */
+
+header div:nth-child(1) img {
+  display: block;
+  /* margin-left: 20px; */
+}
+
+/* Main section */
+#main-doc {
+  /* background-color: var(--color-light); */
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.main-section {
+  width:  80vw;
+  max-width: 900px;
+  margin: 10px auto;
+}
+
+.main-section > h2 {
+  text-align: left;
+  margin: 0;
+}
+
+.main-section article {
+  margin-top: 15px;
+  margin-bottom:  25px;
+}
+
+p {
+  line-height: 1.6;
+  color:  var(--color-light);
+}
+
+hr {
+  /* color: var(--color-turquoise); */
+  border-color: var(--color-turquoise);
+}
+
+/* Body Nav  */
+.body-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body-nav a {
+  text-decoration: none;
+  color: var(--color-turquoise);
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+		flex-direction: column;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  header div:nth-child(1) {
+		margin: 0 auto;
+		display: block;
+		padding-bottom: 0;
+  }
+
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  .main-section > h2 {
+    margin-left: -10px;
+  }
+
+  /* header div:nth-child(1) img {
+    margin-left: 0;
+  } */
+
+  /* .hdr-child {
+		flex-grow: 1;
+		text-align: center;
+	} */
+}
+
