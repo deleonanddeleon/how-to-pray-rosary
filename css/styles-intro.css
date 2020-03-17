@@ -78,6 +78,13 @@ nav > ul > li > a:hover {
 	color: gray;
 }
 
+.isDisabled {
+  cursor:  not-allowed;
+  opacity: 0.5;
+  color:  currentColor;
+  text-decoration: none;
+}
+
 nav div:nth-child(1) {
 	flex-grow: 8;
 	width: 125px;
