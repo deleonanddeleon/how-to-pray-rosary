@@ -26,7 +26,7 @@ html, body {
 
 body {
   background: var(--color-grey);
-  color:  var(--color-turquoise);
+  color:  var(--color-light);
   font-family: 'Raleway', sans-serif;
   font-size: 100%;
   position: relative;
@@ -105,7 +105,7 @@ nav div:nth-child(1) img {
 }
 
 #main-doc a {
-  color: var(--color-light);
+  color: var(--color-turquoise);
   text-decoration: none;
   cursor: pointer;
   /* padding: 10px 30px; */
@@ -146,9 +146,8 @@ section > article > ol > li > p {
   padding-left: 0px;
 }
 
-
 h2 {
-  color: var(--color-light);
+  color: var(--color-turquoise);
   margin: 10px;
   text-align: center;
   font-size: 1.8rem;
@@ -156,13 +155,17 @@ h2 {
 }
 
 h3 {
-  color: var(--color-light);
+  color: var(--color-turquoise);
   line-height: 2;
   font-size:  1.6rem;
 }
 
 p {
   line-height: 1.6;
+}
+
+hr {
+  border-color: var(--color-turquoise);
 }
 
 p.code {
