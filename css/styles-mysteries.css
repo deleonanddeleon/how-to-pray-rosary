@@ -96,12 +96,20 @@ nav div:nth-child(1) img {
   margin-bottom: 50px;
   width: 80vw;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 550px;
 }
 
-#main-doc header > h2 {
+/* #main-doc header > h2 {
   text-align: left;
   margin: 0;
+} */
+
+#main-doc header > h2 {
+  color: var(--color-turquoise);
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: thin;
 }
 
 #main-doc a {
@@ -146,13 +154,7 @@ section > article > ol > li > p {
   padding-left: 0px;
 }
 
-h2 {
-  color: var(--color-turquoise);
-  margin: 10px;
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: thin;
-}
+
 
 h3 {
   color: var(--color-turquoise);
