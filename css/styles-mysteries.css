@@ -231,6 +231,13 @@ p.code {
   color: var(--color-turquoise);
 }
 
+/* Modals */
+.modal-content {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: var(--color-black);
+}
+
 @media only screen and (max-width: 576px) {
   nav {
     position: fixed;
