@@ -243,10 +243,16 @@ p.code {
 
 /* Modals */
 .modal-content {
+  background: var(--color-grey);
+  color: var(--color-light);
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  color: var(--color-black);
 }
+
+/* Bootstrap overrides  */
+.modal-footer button {
+  color: var(--color-turquoise);
+} 
 
 @media only screen and (max-width: 576px) {
   nav {
