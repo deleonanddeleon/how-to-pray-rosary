@@ -122,8 +122,12 @@ nav div:nth-child(1) img {
   /* display: block;  */
 }
 
-#main-doc a:hover{
+#main-doc a:hover {
   color: grey;
+}
+#main-doc a:visited {
+  text-decoration: none;
+  outline: none;
 }
 
 section {
