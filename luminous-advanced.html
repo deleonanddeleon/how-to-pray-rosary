@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Rosary website is a How-To-Guide on praying the Holy Rosary. The info is compiled from credible sources
+    by deleonanddeleon App Developers.">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles-mysteries.css">
+  <title>The Holy Rosary</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-child">
+      <a href="index.html"> <img src="images/mylogo.png" alt="brand-logo-img"></a>
+    </div>
+    <ul class="nav-child">
+      <li><a href="intro.html">Intro</a></li>
+      <li><a href="how-to.html">How-To</a></li>
+      <li><a href="mysteries.html">Mysteries</a></li>
+      <li><a href="prayers.html">Prayers</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="How_To_Pray_The_Rosary">
+      <header>
+        <h2>How To Pray The Rosary</h2>
+      </header>
+      <article>
+        <p>
+          Step-by-step instructions for praying the rosary:
+        </p>
+        <ol>
+          <li>Make the <a href="#" data-toggle="modal" data-target="#SignOfTheCrossModalLong">
+              <span class="bold-light">Sign of the Cross</span></a>.</li>
+          <div class="modal fade" id="SignOfTheCrossModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="SignOfTheCrossModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="SignOfTheCrossModalLongTitle">Sign of the Cross</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  In the name of the Father,<br>
+                  and of the Son,<br>
+                  and of the Holy Spirit.<br>
+                  <br>
+                  Amen.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <li>Holding the Crucifix, say the <a href="#" data-toggle="modal" data-target="#ApostlesCreedModalLong">
+              <span class="bold-light">The Apostles' Creed.</span></a></li>
+          <div class="modal fade" id="ApostlesCreedModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="ApostlesCreedModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ApostlesCreedModalLongTitle">The Apostles' Creed</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  I believe in God,<br>
+                  The Father Almighty,<br>
+                  Creator of heaven and earth,<br>
+                  And in Jesus Christ,<br>
+                  His only Son, our Lord,<br>
+                  Who was conceived by the Holy Spirit,<br>
+                  Born of the Virgin Mary,<br>
+                  Suffered under Pontius Pilate,<br>
+                  Was crucified, died and was buried;<br>
+                  He descended into hell;<br>
+                  On the third day He rose again from the dead;<br>
+                  He ascended into heaven,<br>
+                  And is seated at the right hand<br>
+                  Of God the Father Almighty;<br>
+                  From there He will come<br>
+                  To judge the living and the dead.<br>
+                  I believe in the Holy Spirit,<br>
+                  The holy catholic Church,<br>
+                  The communion of saints,<br>
+                  The forgiveness of sins,<br>
+                  The resurrection of the body,<br>
+                  And life everlasting.<br>
+                  <br>
+                  Amen.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <li>On the first bead, say an <a href="#" data-toggle="modal" data-target="#OurFatherModalLong">
+              <span class="bold-light">Our Father</span></a>.</li>
+          <div class="modal fade" id="OurFatherModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="OurFatherModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="OurFatherModalLongTitle">The Our Father</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Our Father, Who art in heaven,<br>
+                  Hallowed be Thy name;<br>
+                  Thy kingdom come;<br>
+                  Thy will be done on earth<br>
+                  as it is in heaven.<br>
+                  Give us this day<br>
+                  our daily bread;<br>
+                  and forgive us our trespasses<br>
+                  as we forgive those<br>
+                  who trespass against us;<br>
+                  and lead us not into temptation,<br>
+                  but deliver us from evil.<br>
+                  <br>
+                  Amen.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <li>Say one <a href="#" data-toggle="modal" data-target="#HailMaryModalLong">
+              <span class="bold-light">Hail Mary</span></a> on each of the next three beads.</li>
+          <div class="modal fade" id="HailMaryModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="HailMaryModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="HailMaryModalLongTitle">Hail Mary</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Hail Mary, full of grace,<br>
+                  the Lord is with you;<br>
+                  blessed are you among women,<br>
+                  and blessed is the fruit<br>
+                  of your womb, Jesus.<br>
+                  Holy Mary, Mother of God,<br>
+                  pray for us sinners<br>
+                  now and at the hour of our death.<br>
+                  <br>
+                  Amen.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <li>Say the <a href="#" data-toggle="modal" data-target="#GloryBeModalLong">
+              <span class="bold-light">Glory Be (Doxology)</span></a>.</li>
+          <div class="modal fade" id="GloryBeModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="GloryBeModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="GloryBeModalLongTitle">The Glory Be (Doxology)</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Glory be to the Father,<br>
+                  to the Son, and to the Holy Spirit;<br>
+                  as it was in the beginning,<br>
+                  is now, and ever shall be,<br>
+                  world without end.<br>
+                  <br>
+                  Amen.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <li id="The_Luminous_Mysteries">The First Luminous Mystery is <span class="bold-light">The Baptism of Christ
+              in the Jordan</span>
+          </li>
+          <p class="code">
+            <span class="code-italic"> In those days, Jesus came from
+              Nazareth in Galilee and was
+              baptized by John in the Jordan.
+              Immediately coming up out of the
+              water, He saw the heavens
+              opening, and the Spirit like a dove
+              descending upon Him; and a voice
+              came out of the heavens:
+              "You are My beloved Son
+              in You I am well-pleased."
+              (Mark 1, 9-10)</span>
+          </p>
+          <li>Say the <a href="#" data-toggle="modal" data-target="#OurFatherModalLong">
+              <span class="bold-light">Our Father</span></a>.</li>
+          <li>While fingering each of the ten beads of the decade, next say ten <a href="#" data-toggle="modal"
+              data-target="#HailMaryModalLong"><span class="bold-light">Hail Marys</span></a> while meditating on the
+            Mystery. Then say a <a href="#" data-toggle="modal" data-target="#GloryBeModalLong">
+              <span class="bold-light">Glory Be</span></a>.</li>
+          <li>After finishing each decade, say the <a href="#" data-toggle="modal" data-target="#FatimaModalLong">
+              <span class="bold-light">Fatima Prayer</span></a>.</li>
+          <div class="modal fade" id="FatimaModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="FatimaModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="FatimaModalLongTitle">The Fatima Prayer</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  O my Jesus, forgive us our sins,<br>
+                  save us from the fires of hell;<br>
+                  lead all souls to Heaven,<br>
+                  especially those who have<br>
+                  most need of your mercy.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <li>The Second Luminous Mystery is <span class="bold-light">The Wedding Feast at Cana</span></li>
+          <p class="code">
+            <span class="code-italic">On the third day, there was a
+              wedding in Cana of Galilee,
+              and the mother of Jesus was there;
+              and both Jesus and His disciples
+              were invited to the wedding. When
+              the wine ran out, the mother of
+              Jesus said to Him, "They have
+              no wine." And Jesus said to her
+              "Woman, what does that have to
+              do with us? My hour has not yet
+              come." His mother said to the
+              servants, "Whatever He says to
+              you, do it." ... and manifested His
+              glory, and His disciples believed in Him.
+              (John 2, 1-5)</span>
+          </p>
+          <li>Say the <a href="#" data-toggle="modal" data-target="#OurFatherModalLong">
+              <span class="bold-light">Our Father</span></a>.</li>
+          <li>While fingering each of the ten beads of the decade, next say ten <a href="#" data-toggle="modal"
+              data-target="#HailMaryModalLong"><span class="bold-light">Hail Marys</span></a> while meditating on the
+            Mystery. Then say a <a href="#" data-toggle="modal" data-target="#GloryBeModalLong">
+              <span class="bold-light">Glory Be</span></a>.</li>
+          <li>After finishing each decade, say the <a href="#" data-toggle="modal" data-target="#FatimaModalLong">
+              <span class="bold-light">Fatima Prayer</span></a>.</li>
+          <li>The Third Luminous Mystery is <span class="bold-light">The Proclamation of the Coming of the Kingdom of
+              God</span></li>
+          <p class="code">
+            <span class="code-italic">Jesus was going throughout all
+              Galilee, teaching in their synagogues
+              and proclaiming the gospel of the
+              kingdom, and healing every kind
+              of disease and every kind of
+              sickness among the people.
+              ... Large crowds followed Him
+              from Galilee and the Decapolis and
+              Jerusalem and Judea, and from
+              beyond the Jordan.
+              (Matthew 4, 23, 25) </span>
+          </p>
+          <li>Say the <a href="#" data-toggle="modal" data-target="#OurFatherModalLong">
+              <span class="bold-light">Our Father</span></a>.</li>
+          <li>While fingering each of the ten beads of the decade, next say ten <a href="#" data-toggle="modal"
+              data-target="#HailMaryModalLong"><span class="bold-light">Hail Marys</span></a> while meditating on the
+            Mystery. Then say a <a href="#" data-toggle="modal" data-target="#GloryBeModalLong">
+              <span class="bold-light">Glory Be</span></a>.</li>
+          <li>After finishing each decade, say the <a href="#" data-toggle="modal" data-target="#FatimaModalLong">
+              <span class="bold-light">Fatima Prayer</span></a>.</li>
+          <li>The Fourth Luminous Mystery is <span class="bold-light">The Transfiguration</span></li>
+          <p class="code">
+            <span class="code-italic">Six days later, Jesus took with
+              Him Peter and James and John,
+              His brother, and led them high up on
+              a high mountain by themselves.
+              And He was transfigured before
+              them; and His face shone like
+              the sun, and His garments
+              became as white as light.
+              And behold, Moses and Elijah
+              appeared to them, talking with Him.
+              (Matthew 17, 1-3)</span>
+          </p>
+          <li>Say the <a href="#" data-toggle="modal" data-target="#OurFatherModalLong">
+              <span class="bold-light">Our Father</span></a>.</li>
+          <li>While fingering each of the ten beads of the decade, next say ten <a href="#" data-toggle="modal"
+              data-target="#HailMaryModalLong"><span class="bold-light">Hail Marys</span></a> while meditating on the
+            Mystery. Then say a <a href="#" data-toggle="modal" data-target="#GloryBeModalLong">
+              <span class="bold-light">Glory Be</span></a>.</li>
+          <li>After finishing each decade, say the <a href="#" data-toggle="modal" data-target="#FatimaModalLong">
+              <span class="bold-light">Fatima Prayer</span></a>.</li>
+          <li>The Fifth Luminous Mystery is <span class="bold-light">The Institution of the Eucharist</span></li>
+          <p class="code">
+            <span class="code-italic">When the hour had come,
+              He reclined at the the table,
+              and the Apostles with Him.
+              And He said to them, "I have
+              earnestly desired to eat this
+              Passover with you before I suffer;
+              for I say to you, I shall never
+              again eat it until it is fulfilled
+              in the kingdom of God."
+              (Luke 22, 14-16)</span>
+          </p>
+          <li>Say the <a href="#" data-toggle="modal" data-target="#OurFatherModalLong">
+              <span class="bold-light">Our Father</span></a>.</li>
+          <li>While fingering each of the ten beads of the decade, next say ten <a href="#" data-toggle="modal"
+              data-target="#HailMaryModalLong"><span class="bold-light">Hail Marys</span></a> while meditating on the
+            Mystery. Then say a <a href="#" data-toggle="modal" data-target="#GloryBeModalLong">
+              <span class="bold-light">Glory Be</span></a>.</li>
+          <li>After finishing each decade, say the <a href="#" data-toggle="modal" data-target="#FatimaModalLong">
+              <span class="bold-light">Fatima Prayer</span></a>.</li>
+          <li>After saying the five decades, say the <a href="#" data-toggle="modal"
+              data-target="#SalveReginaModalLong">
+              <span class="bold-light">Hail, Holy Queen (Salve Regina)</span></a>.
+          </li>
+          <div class="modal fade" id="SalveReginaModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="SalveReginaModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="SalveReginaModalLongTitle">Hail, Holy Queen (Salve Regina)</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Hail, holy Queen, mother of mercy,<br>
+                  our life, our sweetness, and our hope.<br>
+                  To you do we cry,<br>
+                  poor banished children of Eve;<br>
+                  to you do we send up our sighs,<br>
+                  mourning and weeping<br>
+                  in this valley of tears.<br>
+                  Turn, then, most gracious advocate,<br>
+                  your eyes of mercy toward us;<br>
+                  and after this, our exile,<br>
+                  show unto us the blessed fruit<br>
+                  of your womb, Jesus.<br>
+                  <br>
+                  O clement, O loving,<br>
+                  O sweet Virgin Mary.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <li>Say the <span class="bold-light">Prayer for Peace</span></li>
+          <p class="code">
+            Mother Mary, through your intercession,
+            we beg you. Please bring peace
+            to our families, to our country
+            and to the whole world.
+          </p>
+          <li>Say the <span class="bold-light">The Litany of the Blessed Virgin Mary</span></li>
+          <p class="code">
+            <span class="bold-light">The Litany of the Blessed Virgin Mary</span>
+          </p>
+          <div class="grid-table">
+            <span>Lord,</span>
+            <span class="code-italic">Have Mercy on us</span>
+            <span>Christ,</span>
+            <span class="code-italic">Have Mercy on us</span>
+            <span>Lord,</span>
+            <span class="code-italic">Have Mercy on us</span>
+            <span>Christ,</span>
+            <span class="code-italic">Hear us</span>
+            <span>Christ,</span>
+            <span class="code-italic">Graciously hear us</span>
+            <span>God The Father of Heaven,</span>
+            <span class="code-italic">Have Mercy on us</span>
+            <span>God The Son Redeemer of the World,</span>
+            <span class="code-italic">Have Mercy on us</span>
+            <span>God The Holy Spirit,</span>
+            <span class="code-italic">Have Mercy on us</span>
+            <span>Holy Trinity, One God,</span>
+            <span class="code-italic">Have Mercy on us</span>
+            <span>Holy Mary,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Holy Mother of God</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Holy Virgin of virgins,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother of Christ,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother of divine grace,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother most pure,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother most chaste,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother inviolate,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother undefiled,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother most amiable,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother most admirable,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother of good counsel,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother of our Creator,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mother of our Savior,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Virgin most prudent,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Virgin most venerable,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Virgin most renowned,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Virgin most powerful,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Virgin most merciful,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Virgin most faithful,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mirror of justice,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Seat of wisdom,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Cause of our joy,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Spiritual vessel,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Vessel of honor,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Singular vessel of devotion,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Mystical rose,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Tower of David,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Tower of ivory,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>House of gold,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Ark of the Covenant,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Gate of Heaven,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Morning star,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Health of the sick,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Refuge of sinners,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Comforter of the afflicted,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Help of Christians,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of angels,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of patriarchs,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of prophets,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of apostles,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of martyrs,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of confessors,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of virgins,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of all saints,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen conceived without Original Sin,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen assumed into Heaven,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of the most holy Rosary,</span>
+            <span class="code-italic">Pray for us</span>
+            <span>Queen of peace,</span>
+            <span class="code-italic">Pray for us</span>
+          </div>
+          <p class="code">Lamb of God, you take away the sins of the world,
+            <span class="code-italic">Spare us, O Lord.</span>
+
+            Lamb of God, you take away the sins of the world,
+            <span class="code-italic">Graciously hear us, O Lord.</span>
+
+            Lamb of God, you take away the sins of the world,
+            <span class="code-italic">Have mercy on us.</span>
+          </p>
+          <li>Say the following dialogue:</li>
+          <ul>
+            <li>V. <span class="code-italic">Pray for us, O holy Mother of God</span>.</li>
+            <li>R. <span class="code-italic">That we may be made worthy of the promises of Christ</span>.</li>
+          </ul>
+          <li>Say the <span class="bold-light">Concluding Prayer(s)</span>.</li>
+          <p class="code" id="Concluding_Prayers">
+            <span class="bold-light">Let us pray:</span>
+            O God, Whose Only Begotten Son,
+            by His life, Death, and Resurrection,
+            has purchased for us the rewards of
+            eternal salvation, grant, we beseech Thee,
+            that while meditating on these mysteries
+            of the most Holy Rosary
+            of the Blessed Virgin Mary,
+            we may imitate what they contain
+            and obtain what they promise,
+            through the same Christ our Lord.
+
+            Amen.
+
+            L. May the divine assistance remain always with us.
+            R. Amen.
+
+            L. May the souls of the faithful departed, through the mercy of God, rest in peace.
+            R. Amen.
+
+            L. May the blessing of the Almighty God: Father, Son, and Holy Spirit descend upon us and remain with us
+            always.
+            R. Amen.
+          </p>
+          <li>A <span class="bold-light"><a href="#Consecration_to_the_Holy_Family">Consecration to the Holy
+                Family</a></span> may
+            also follow</li>
+          <li>Conclude the Rosary with the <a href="#" data-toggle="modal" data-target="#SignOfTheCrossModalLong">
+              <span class="bold-light">Sign of the Cross</span></a>.</li>
+        </ol>
+      </article>
+      <hr>
+    </section>
+    <section class="main-section" id="Consecration_to_the_Holy_Family">
+      <header>
+        <h2>Consecration to the Holy Family</h2>
+      </header>
+      <article>
+        <p>
+          O Jesus, our most loving Savior who deigned to come in to the world from heaven not only to enlighten it by
+          teaching and by Your example, and to save it by death, but also to spend the greater part of life in humble
+          obedience to Mary and Joseph in the obscurity of Nazareth, thus sanctifying the home which was to be the model
+          of all Christian homes: graciously receive this family which consecrates itself to you this day. Protect us
+          and maintain in us all through life Your holy fear and love, and true harmony and charity among ourselves, so
+          that we imitate Your Holy Family, be one in heart and soul on earth and obtain eternal happiness and glory
+          with You in heaven.
+        </p>
+        <br>
+        <p>
+          O Mary, loving Mother of Jesus and our Mother, by your merciful intercession deign to make this humble
+          dedication acceptable to Jesus Christ so that we may obtain His grace to be a truly Christian family.
+        </p>
+        <br>
+        <p>
+          St. Joseph, guardian and supporter of Jesus and Mary, help us with your powerful prayers in all our corporal
+          and spiritual needs, and especially at the hour of our death, so that we may be one day all united in heaven
+          with you to praise and love Jesus and Mary forever and ever.
+        </p>
+        <br>
+        <p>
+          Amen.
+        </p>
+      </article>
+      <hr>
+    </section>
+    <section class="body-nav">
+      <button type="button" class="btn btn-outline-light"><a href="index.html">Home</a></button>
+    </section>
+  </main>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
