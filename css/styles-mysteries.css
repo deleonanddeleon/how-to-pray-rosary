@@ -254,6 +254,10 @@ p.code {
   color: var(--color-turquoise);
 } 
 
+.modal-title {
+  color: var(--color-turquoise);
+}
+
 @media only screen and (max-width: 576px) {
   nav {
     position: fixed;
