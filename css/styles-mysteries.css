@@ -125,7 +125,13 @@ nav div:nth-child(1) img {
 #main-doc a:hover {
   color: grey;
 }
+
 #main-doc a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
+#main-doc a:focus {
   text-decoration: none;
   outline: none;
 }
