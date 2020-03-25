@@ -115,11 +115,11 @@ nav div:nth-child(1) img {
   margin: 0;
 } */
 
-#main-doc header > h2 {
+#main-doc header h4 {
   color: var(--color-turquoise);
   margin: 10px;
-  text-align: left;
-  font-size: 1.8rem;
+  text-align: center;
+  font-size: 1.4rem;
   font-weight: thin;
 }
 
@@ -136,7 +136,7 @@ nav div:nth-child(1) img {
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 section article {
@@ -247,6 +247,23 @@ p.code {
 
 .body-nav a {
   text-decoration: none;
+  color: var(--color-turquoise);
+}
+
+/* Modals */
+.modal-content {
+  background: var(--color-grey);
+  color: var(--color-light);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+/* Bootstrap overrides  */
+.modal-footer button {
+  color: var(--color-turquoise);
+} 
+
+.modal-title {
   color: var(--color-turquoise);
 }
 
