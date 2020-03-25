@@ -96,7 +96,8 @@ section h1 {
   word-spacing: 0.1rem; */
   text-align: center;
   /* color:  var(--color-turquoise); */
-  line-height: 1.8;
+  /* line-height: 1.8; */
+  line-height: 2.5;
   padding-bottom: 15px;
 }
 
