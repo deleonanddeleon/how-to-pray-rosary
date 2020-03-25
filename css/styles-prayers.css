@@ -165,6 +165,16 @@ section > article > ol > li > p {
   padding-left: 0px;
 }
 
+/* section.doc-nav > ul {
+  list-style: none;
+}
+section.doc-nav a {
+  color: var(--color-turquoise);
+	font-size: 0.9rem;
+  text-transform: uppercase;
+  text-decoration: none;
+} */
+
 h3 {
   color: var(--color-turquoise);
   line-height: 2;
