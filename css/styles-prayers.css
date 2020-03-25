@@ -92,6 +92,14 @@ nav div:nth-child(1) img {
 	margin-left: 20px;
 } 
 
+.isDisabled {
+  cursor:  not-allowed;
+  opacity: 0.5;
+  color:  currentColor;
+  text-decoration: none;
+}
+
+
 /* Main section  */
 #main-doc {
   /* position: absolute;
