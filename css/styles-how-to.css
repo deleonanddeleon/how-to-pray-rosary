@@ -243,6 +243,21 @@ hr {
   border-color: var(--color-turquoise);
 }
 
+/* Image */
+#rosary-illustration {
+  background: var(--color-grey);
+  padding: 20px;
+  margin: 0;
+}
+
+#rosary-illustration > img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 400px;
+}
+
 /* Body Nav  */
 .body-nav {
   display: flex;
